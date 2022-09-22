@@ -7,5 +7,5 @@ elif len(sys.argv) == 2:
 else:
     print(f"{len(sys.argv) - 1:d} arguments:".format(len(sys.argv) - 1))
 argv = len(sys.argv)
-for i in range(1, argv):
-    print(f"{i:d}: {sys.argv[i]:s}".format(i, sys.argv[i]))
+for i in range(argv):
+    print(f"{i+1:d}: {sys.argv[i+1]:s}".format(i+1, sys.argv[i+1]))
