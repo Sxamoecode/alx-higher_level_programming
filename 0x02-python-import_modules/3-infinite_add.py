@@ -9,4 +9,4 @@ if __name__ == "__main__":
     Sum = 0
     for i in range(0, len(list_argv)):
         Sum = Sum + int(list_argv[i])
-    print("Sum: ", Sum)
+    print(f"{Sum:d}".format(Sum))
