@@ -7,4 +7,3 @@ def print_matrix_integer(matrix=[[]]):
                 print()
                 continue
             print("{:d}".format(val), end=' ')
-    return
