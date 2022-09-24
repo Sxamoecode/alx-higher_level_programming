@@ -7,12 +7,4 @@ def print_matrix_integer(matrix=[[]]):
                 print()
                 continue
             print("{:d}".format(val), end=' ')
-
-
-'''
-def print_matrix_integer(matrix=[[]]):
-    for row in matrix:
-        for value in row:
-            print("{:d}".format(value),'hi', end=" ")
-        print()
-'''
+    return
