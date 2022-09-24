@@ -1,9 +1,13 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    for ch in my_string:
-        strg = ""
-        if ch != 'c' or ch != 'C':
-            strg += ch
-        print(str(strg))
+    rem_char = "c"
+    rem_char2 = "C"
 
-no_c('Charcccjkl')
+    new_str = ""
+
+    for i in my_string:
+        if i != rem_char and i != rem_char2:
+            new_str += i
+
+        res = new_str
+    return str(res)
