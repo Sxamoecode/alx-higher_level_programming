@@ -15,5 +15,5 @@ def add_tuple(tuple_a=(), tuple_b=()):
         tuple_b = tuple_b[:2]
     # tuple_c = tuple(map(lambda i, j: i + j, tuple_a, tuple_b))
     rk = tuple(sum(item) for item in zip(tuple_a, tuple_b))
-    return tuple_c
+    return rk
 
