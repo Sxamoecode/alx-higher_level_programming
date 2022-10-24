@@ -4,7 +4,6 @@
 
 
 class BaseGeometry:
-
     """Creates a function area
     """
 
@@ -21,5 +20,5 @@ class BaseGeometry:
         if type(value) != int:
             raise TypeError(name + "<name> must be an integer")
 
-        if value < 0:
+        if value <= 0:
             raise ValueError(name + "<name> must be greater than 0")
