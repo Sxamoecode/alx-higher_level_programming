@@ -10,6 +10,7 @@ def is_same_class(obj, a_class):
     :param a_class: class to compare with
     :return: True
     """
+
     if isinstance(obj, a_class):
         return True
     else:
