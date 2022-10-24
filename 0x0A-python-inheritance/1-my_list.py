@@ -13,4 +13,5 @@ class MyList(list):
         method to sort and print a list
         :return: None
         """
+
         print(sorted(self))
