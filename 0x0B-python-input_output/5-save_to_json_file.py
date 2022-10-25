@@ -8,4 +8,4 @@ def save_to_json_file(my_obj, filename):
     to a text file, using a JSON representation"""
     import json
     with open(filename, mode='w', encoding='UTF8') as file:
-        json.dumps(my_obj, file, indent=4)
+        json.dump(my_obj, file, indent=4)
