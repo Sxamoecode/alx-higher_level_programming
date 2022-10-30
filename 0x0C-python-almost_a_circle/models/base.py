@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""Base Rectangle
+"""
+
+
 class Base:
     __nb_objects = 0
 
