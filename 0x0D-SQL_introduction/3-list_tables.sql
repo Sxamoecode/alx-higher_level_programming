@@ -1,2 +1,2 @@
--- Lists all the tables ofmdatabase.
+-- Lists all the tables of database.
 SHOW TABLES;
